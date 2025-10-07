@@ -1,0 +1,43 @@
+.homepage{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.homepage div{
+    flex: 0 0 calc(25% - 15px);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container01, .container03{
+    background-color: #68b8b5;
+}
+.container02, .container04{
+    background-color: #dd9350;
+}
+.homepage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide01, .slide02, .slide03, .slide04{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+    justify-content: space-around;
+    
+}
+
+.slide01, .slide02, .slide03, .slide04 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
