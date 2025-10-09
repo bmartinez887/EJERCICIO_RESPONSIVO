@@ -1,4 +1,4 @@
-.homepage{
+.homepage {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
@@ -6,7 +6,7 @@
     justify-content: center;
 }
 
-.homepage div{
+.homepage div {
     flex: 0 0 calc(25% - 15px);
     height: 300px;
     display: flex;
@@ -15,29 +15,64 @@
     text-align: center;
 }
 
-.container01, .container03{
+.container01,
+.container03 {
     background-color: #68b8b5;
+    display: flex;
+    flex-direction: column;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+
+
 }
-.container02, .container04{
+
+.container02,
+.container04 {
     background-color: #dd9350;
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+
 }
-.homepage img{
+.num01, .num02, .num03{
+    font-size: 60px;
+}
+.ICONIG, .ICONIG2, .ICONIG3{
+    font-size: 40px;
+}
+.homepage img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.slide01, .slide02, .slide03, .slide04{
+.slide01,
+.slide02,
+.slide03,
+.slide04 {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
     padding: 20px;
     justify-content: space-around;
-    
+
 }
 
-.slide01, .slide02, .slide03, .slide04 img{
+.slide01,
+.slide02,
+.slide03,
+.slide04 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
+
