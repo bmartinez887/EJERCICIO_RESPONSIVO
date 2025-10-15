@@ -10,9 +10,9 @@
     flex: 0 0 calc(25% - 15px);
     height: 300px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    //justify-content: center;
+    //align-items: center;
+    //text-align: center;
 }
 
 .container01,
@@ -20,6 +20,7 @@
     background-color: #68b8b5;
     display: flex;
     flex-direction: column;
+    text-align: left;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800;
@@ -34,19 +35,30 @@
     background-color: #dd9350;
     display: flex;
     flex-direction: column;
-    justify-content: ;
+    text-align: left;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
     color: white;
-
+    
 }
 .num01, .num02, .num03{
     font-size: 60px;
+    line-height: 0px;
+   
+}
+.container01 p,
+.container02 p,
+.container03 p,
+.container04 p{
+
+    padding-left: 10px;
 }
 .ICONIG, .ICONIG2, .ICONIG3{
     font-size: 40px;
+    padding-left: 10px;
+    
 }
 .homepage img {
     width: 100%;
